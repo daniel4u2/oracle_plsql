@@ -49,6 +49,7 @@ create or replace procedure xxwmm_tf_inv_test(p_test_type IN VARCHAR2,
 
 BEGIN
 
+  --test comments--
   n_inv_net_amt := p_inv_net_amt;
   n_inv_tax_amt := ROUND( p_inv_net_amt * p_tax_rate,2);
   
